@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuanto falta para el Lolla?</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Oi&display=swap'); */
+        </style>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Cuánto falta para el Lolla?</h1>
+    </header>
+    <main>
+        <section class="countDown">
+            <div class="timer" id="dias">140</div><span>D</span>
+            <div class="timer"id="horas">24</div><span>Hs</span>
+            <div class="timer" id="minutos">60</div><span>M</span>
+            <div class="timer" id="segundos">60</div><span>S</span>
+        </section>
+        <div class="button" >
+            <a target="_blank" href="https://www.lollapaloozaar.com/information"><button>Toda la info</button></a>
+            <!-- Select different lolla paloozas and trigger JS <button></button> -->
+        </div>
+
+    </main>
+
+
+
+<footer>
+    c Martin Grillo 2021 / claramente sitio NO oficial
+</footer>
+    <script>
+        var dias = document.getElementById("dias");
+        var horas = document.getElementById("horas");
+        var minutos = document.getElementById("minutos");
+        var segundos = document.getElementById("segundos");
+        dias.innerHTML = "88"
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>

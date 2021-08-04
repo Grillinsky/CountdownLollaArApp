@@ -1,0 +1,134 @@
+
+@font-face{
+    font-family: sixteenSegments;
+    src: url(/public/css/led16sgmnt2-font/Led16Segment2-B99V.ttf);
+
+}
+@font-face{
+    font-family: chubbyGrubby;
+    src: url(/public/css/Chubby\ And\ Groovy.ttf);
+}
+html, body{
+    width: 100vw;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/public/css/Background4.jpg);
+    background-size: 96vw;
+    background-color: rgba(255, 255, 255, 1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    width: 100vw;
+    font-family: chubbyGrubby;
+    text-shadow: 1px 2px 5px rgba(248, 235, 246, 0.8);
+    color: white /* rgb(240, 149, 46)*/;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0px 11px 21px 6px hsla(301, 89%, 75%, 0.8);
+-webkit-box-shadow: 0px 5px 10px 6px hsla(301, 89%, 75%, 0.8);
+-moz-box-shadow: 0px 11px 21px 6px hsla(301, 89%, 75%, 0.8);
+    backdrop-filter: blur( 18.0px );
+    -webkit-backdrop-filter: blur( 18.0px );
+    /* border-radius: 10px; */
+    border: 2px solid hsla(321, 89%, 75%, 0.3);
+    padding: 5%;
+}
+.titulo h1{
+    margin: 5%;
+    font-size: 15vw;
+    text-align: center;
+    transform: scaleX(1.1) scaleY(1.3);
+    align-self: flex-start;
+}
+/* "ghost" effect on Titulo
+text-shadow: 21px 12px 2px rgba(248, 235, 246, 0.8); */
+.countDown {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 50vh;
+    padding-left: 2vw;
+    
+}
+.timer{
+    font-family: sixteenSegments;
+    transform: scaleY(1.5) skewX(-10deg);
+    text-shadow: 1px 2px 4px rgba(8, 5, 6, 0.8),
+                2px 3px 6px rgba(248, 245, 246, 0.8) ;
+    color: white;
+    font-size: 18vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* 1px 2px 5px rgba(8, 5, 6, 0.8) */
+span{
+    font-family: sixteenSegments;
+    color: white;
+    transform: translateY(2rem);
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+}
+
+button{
+    border-radius: 6px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: hsla(301, 89%, 75%, 0.8);
+    box-shadow: 0px 3px 21px 6px hsla(301, 19%, 35%, 0.8);
+    border: 2px hsl(290, 29%, 50%) solid;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsla(301, 89%, 85%, 0.9);
+    box-shadow: 0px 2px 29px 9px hsla(301, 19%, 55%, 0.8);
+    border: .2px lightgray solid;
+}
+footer{
+    color: aliceblue;
+    font-size: 1.5rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    bottom: 0%;
+    display: block;
+    background-color:  rgba(0, 0, 0, 0.19);
+}
+@media (min-width:800px) {
+    body{
+        background-image: url(/public/css/Background5.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top center;
+    }
+    .titulo {
+        font-size: 2.9em;
+        margin: .3rem;
+        height: 7em;
+    }
+    .timer{
+        height: 7rem;
+    }
+    .countDown{
+        font-size: 7rem;
+        display: flex;
+        height: 2.2em;
+    }
+}
