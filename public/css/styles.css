@@ -1,12 +1,12 @@
 
 @font-face{
     font-family: sixteenSegments;
-    src: url(/public/css/led16sgmnt2-font/Led16Segment2-B99V.ttf);
+    src: url(/css/led16sgmnt2-font/Led16Segment2-B99V.ttf);
 
 }
 @font-face{
     font-family: chubbyGrubby;
-    src: url(/public/css/Chubby\ And\ Groovy.ttf);
+    src: url(/css/Chubby\ And\ Groovy.ttf);
 }
 html, body{
     width: 100vw;
@@ -16,7 +16,7 @@ html, body{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/public/css/Background4.jpg);
+    background-image: url(/css/Background4.jpg);
     background-size: 101%;
     background-color: rgba(255, 255, 255, 1);
     height: 100vh;
@@ -129,7 +129,7 @@ footer{
 }
 @media (min-width:800px) {
     body{
-        background-image: url(/public/css/Background5.jpg);
+        background-image: url(/css/Background5.jpg);
         background-repeat: no-repeat;
         background-size: auto;
         background-position: top center;
