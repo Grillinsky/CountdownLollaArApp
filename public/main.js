@@ -25,4 +25,5 @@ var x = setInterval(function() {
     minutos.innerHTML = minutes;
     segundos.innerHTML = seconds;
     
+
 })

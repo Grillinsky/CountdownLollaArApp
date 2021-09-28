@@ -8,6 +8,11 @@
     font-family: chubbyGrubby;
     src: url(/css/Chubby\ And\ Groovy.ttf);
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html, body{
     width: 100vw;
     margin: 0%;
@@ -55,7 +60,7 @@ main{
     flex-direction: column;
 }
 .titulo h1{
-    margin: 5%;
+    margin: 2%;
     font-size: calc(15vw - 1rem);
     text-align: center;
     transform: scaleX(1.1) scaleY(1.3);
@@ -181,19 +186,23 @@ footer{
         background-image: url(/css/Background5.jpg);
         background-repeat: no-repeat;
         background-size: auto;
-        background-position: top center;
+        background-position: center;
     }
     .titulo {
-        font-size: 2.9em;
-        margin: .3rem;
-        height: 7em;
+        padding: 1%;
+        height: 20%;
+    }
+    .titulo h1{
+        font-size: 7vw;
+        margin:  0% auto;
+        padding-top: 2%;
     }
     .timer{
         height: 7rem;
+        font-size: 12vw;
     }
     .countDown{
-        font-size: 7rem;
         display: flex;
-        height: 2.2em;
+        margin-block: 3rem;
     }
 }
