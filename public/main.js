@@ -3,7 +3,7 @@ var horas = document.getElementById("horas");
 var minutos = document.getElementById("minutos");
 var segundos = document.getElementById("segundos");
 // SE CUENTA HACIA LA FECHA APROXIMADAD DE LA REALIZACIN DEL EVENTO
-var countDownDate = new Date("Nov 26, 2021 00:00:00").getTime();
+var countDownDate = new Date("Mar 18, 2022 00:00:00").getTime();
 
 // ACTUALIZAR EL CONTADOR CADA 1 SEGUNDO
 
