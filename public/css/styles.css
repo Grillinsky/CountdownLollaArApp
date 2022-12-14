@@ -4,7 +4,7 @@
 }
 @font-face {
 	font-family: chubbyGrubby;
-	src: url(/css/Chubby\ And\ Groovy.ttf);
+	src: url(Chubby\ And\ Groovy.ttf);
 }
 * {
 	padding: 0;
@@ -182,7 +182,7 @@ footer {
 	body {
 		background-image: url(/css/background.png);
 		background-repeat: no-repeat;
-		background-size: auto;
+		background-size: cover;
 		background-position: center;
 	}
 	.titulo {
