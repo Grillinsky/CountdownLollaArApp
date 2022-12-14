@@ -2,8 +2,15 @@ var dias = document.getElementById("dias");
 var horas = document.getElementById("horas");
 var minutos = document.getElementById("minutos");
 var segundos = document.getElementById("segundos");
+var arBtn = document.getElementById("lollaAr");
+var brBtn = document.getElementById("lollaBr");
+var clBtn = document.getElementById("lollaCl");
 // SE CUENTA HACIA LA FECHA APROXIMADAD DE LA REALIZACIN DEL EVENTO
-var countDownDate = new Date("Mar 17, 2023 00:00:00").getTime();
+const lollaAr = new Date("Mar 17, 2023 00:00:00").getTime();
+const lollaCl = new Date("Mar 17, 2023 00:00:01").getTime();
+const lollaBr = new Date("Mar 24, 2023 00:00:01").getTime();
+
+
 
 // ACTUALIZAR EL CONTADOR CADA 1 SEGUNDO
 
@@ -28,3 +35,21 @@ var x = setInterval(function () {
 		alert("Lollapalooza AR 2023 ya paso ");
 	}
 }, 1000);
+countDownDate = lollaAr
+
+// var countDownDate = 
+arBtn.addEventListener("click", function(){
+	countDownDate = lollaAr
+	document.querySelector("body").style.backgroundImage = "url(/css/background.png)";
+});
+
+brBtn.addEventListener("click", function(){
+	countDownDate = lollaBr;
+	document.querySelector("body").style.backgroundImage = "url(/css/Background6.jpg)";
+
+})
+clBtn.addEventListener("click", function(){
+	countDownDate = lollaCl;
+	document.querySelector("body").style.backgroundImage = "url(/css/Background2.jpg)";
+
+})
