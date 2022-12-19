@@ -5,6 +5,8 @@ var segundos = document.getElementById("segundos");
 var arBtn = document.getElementById("lollaAr");
 var brBtn = document.getElementById("lollaBr");
 var clBtn = document.getElementById("lollaCl");
+var locationSpan = 	document.getElementById("location");
+var bodyBackground = document.querySelector("body");
 // SE CUENTA HACIA LA FECHA APROXIMADAD DE LA REALIZACIN DEL EVENTO
 const lollaAr = new Date("Mar 17, 2023 00:00:00").getTime();
 const lollaCl = new Date("Mar 17, 2023 00:00:01").getTime();
@@ -39,17 +41,18 @@ countDownDate = lollaAr
 
 // var countDownDate = 
 arBtn.addEventListener("click", function(){
-	countDownDate = lollaAr
-	document.querySelector("body").style.backgroundImage = "url(/css/background.png)";
+	countDownDate = lollaAr;
+	bodyBackground.style.backgroundImage = "url(/css/Background6.jpg)";
+	locationSpan.innerText = "Ar";
 });
 
 brBtn.addEventListener("click", function(){
 	countDownDate = lollaBr;
-	document.querySelector("body").style.backgroundImage = "url(/css/Background6.jpg)";
-
+	bodyBackground.style.backgroundImage = "url(/css/background.png)";
+	locationSpan.innerText = "Br";
 })
 clBtn.addEventListener("click", function(){
 	countDownDate = lollaCl;
-	document.querySelector("body").style.backgroundImage = "url(/css/Background2.jpg)";
-
+	bodyBackground.style.backgroundImage = "url(/css/Background2.jpg)";
+	locationSpan.innerText = "Cl";
 })
