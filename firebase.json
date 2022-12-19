@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "cuantofaltaparaellolla",
     "public": "public",
     "ignore": [
       "firebase.json",
