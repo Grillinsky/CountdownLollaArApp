@@ -34,7 +34,7 @@ var x = setInterval(function () {
 	horas.innerHTML = hours;
 	minutos.innerHTML = minutes;
 	segundos.innerHTML = seconds;
-	if (countDownDate === now) {
+	if (countDownDate === now || countDownDate < now) {
 		alert("Lollapalooza AR 2023 ya paso ");
 	}
 }, 1000);
