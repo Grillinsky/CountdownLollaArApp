@@ -65,7 +65,7 @@ clBtn.addEventListener("click", function () {
 
 //                 Modal Close Button
 let modal = document.querySelector(".modal");
-let closeBtn = document.getElementsByClassName("close");
+const closeBtn = document.querySelector(".close");
 
 closeBtn.addEventListener("click", () => {
   productModal.style.display = "none";
