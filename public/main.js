@@ -9,7 +9,7 @@ var locationSpan = document.getElementById("location");
 var bodyBackground = document.querySelector("body");
 var infoBtn = document.getElementById("infoBtn");
 // SE CUENTA HACIA LA FECHA APROXIMADAD DE LA REALIZACIN DEL EVENTO
-const lollaAr = new Date("Mar 17, 2023 00:00:00").getTime();
+const lollaAr = new Date("Mar 15, 2024 00:00:00").getTime();
 const lollaCl = new Date("Mar 17, 2023 00:00:01").getTime();
 const lollaBr = new Date("Mar 24, 2023 00:00:01").getTime();
 
@@ -38,6 +38,7 @@ var x = setInterval(function () {
     minutos = 0;
     segundos = 0;
     showModal();
+    return;
   }
 }, 1000);
 countDownDate = lollaAr;
