@@ -11,7 +11,7 @@ var infoBtn = document.getElementById("infoBtn");
 // SE CUENTA HACIA LA FECHA APROXIMADAD DE LA REALIZACIN DEL EVENTO
 const lollaAr = new Date("Mar 15, 2024 00:00:00").getTime();
 const lollaCl = new Date("Mar 17, 2023 00:00:01").getTime();
-const lollaBr = new Date("Mar 24, 2023 00:00:01").getTime();
+const lollaBr = new Date("Mar 22, 2024 00:00:01").getTime();
 
 // ACTUALIZAR EL CONTADOR CADA 1 SEGUNDO
 
