@@ -1,0 +1,29 @@
+<svg width="1440" height="777" viewBox="0 0 1440 777" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="0.5" y="0.5" width="1439" height="776" fill="url(#pattern0)" stroke="#009B3B"/>
+<rect x="0.713451" width="514.854" height="514.854" transform="matrix(0.713451 -0.700706 0.713451 0.700706 352.397 389.225)" fill="url(#pattern1)"/>
+<rect x="0.713451" width="514.854" height="514.854" transform="matrix(0.713451 -0.700706 0.713451 0.700706 352.397 389.225)" fill="url(#pattern2)"/>
+<rect x="0.713451" width="514.854" height="514.854" transform="matrix(0.713451 -0.700706 0.713451 0.700706 352.397 389.225)" fill="url(#pattern3)"/>
+<rect x="0.713451" width="514.854" height="514.854" transform="matrix(0.713451 -0.700706 0.713451 0.700706 352.397 389.225)" stroke="#FEDF00"/>
+<path d="M910.344 388.5C910.344 491.733 825.132 575.434 720 575.434C614.868 575.434 529.657 491.733 529.657 388.5C529.657 285.268 614.868 201.566 720 201.566C825.132 201.566 910.344 285.268 910.344 388.5Z" fill="#002776" fill-opacity="0.8" stroke="#002776"/>
+<path d="M529.156 393.901C529.156 393.322 529.328 392.749 529.644 392.264C549.171 362.274 565.379 345.994 601.541 328.761C638.003 311.384 679.689 297.312 721.891 298.261C764.092 299.209 805.129 309.773 840.366 328.761C875.058 347.455 904.709 378.987 920.564 404.515C921.037 405.277 921.13 406.204 920.835 407.05L907.236 446.107C906.502 448.214 903.832 448.845 902.266 447.257C888.165 432.961 833.593 378.363 810.386 365.858C783.62 351.436 753.947 347.473 721.891 346.753C689.835 346.033 656.673 348.583 628.977 361.782C604.175 373.601 555.775 416.99 535.158 442.551C533.282 444.877 529.156 443.537 529.156 440.548V393.901Z" fill="#D3D0D0" fill-opacity="0.9"/>
+<ellipse cx="735.615" cy="398.724" rx="10.4096" ry="10.2237" fill="#D9D9D9" fill-opacity="0.8"/>
+<ellipse cx="706.121" cy="451.546" rx="10.4096" ry="10.2237" fill="#D9D9D9" fill-opacity="0.8"/>
+<ellipse cx="784.193" cy="451.546" rx="10.4096" ry="10.2237" fill="#D9D9D9" fill-opacity="0.8"/>
+<ellipse cx="756.434" cy="521.408" rx="10.4096" ry="10.2237" fill="#D9D9D9" fill-opacity="0.8"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.00833333" height="0.015444">
+<use xlink:href="#image0_124_98" transform="scale(0.000694444 0.001287)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.0232624" height="0.0232624">
+<use xlink:href="#image1_124_98" transform="scale(0.00193853)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="0.0232624" height="0.0232624">
+<use xlink:href="#image1_124_98" transform="scale(0.00193853)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="0.0232624" height="0.0232624">
+<use xlink:href="#image1_124_98" transform="scale(0.00193853)"/>
+</pattern>
+<image id="image0_124_98" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA4SURBVHgB7dGxEQAgCAPAsJa6mzhHhhWOCaCjgDu6T5oIMsd1AVH/l8PcHzw6uAuOQAHH4hXs5QZYJjPZOANTkQAAAABJRU5ErkJggg=="/>
+<image id="image1_124_98" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAvSURBVHgB7czBDQAgCMXQbq6LGuMgAvkbwJGEnl8Kifyx7OL/sAd3xKqCNaeCNQ+nMlr9jFTzDgAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

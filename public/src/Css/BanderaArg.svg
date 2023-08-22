@@ -1,0 +1,51 @@
+<svg width="1440" height="777" viewBox="0 0 1440 777" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_124_57)">
+<rect width="1440" height="259" fill="url(#pattern0)" shape-rendering="crispEdges"/>
+<rect width="1440" height="259" fill="url(#pattern1)" shape-rendering="crispEdges"/>
+<rect x="0.5" y="0.5" width="1439" height="258" stroke="#3696D4" shape-rendering="crispEdges"/>
+</g>
+<rect x="0.5" y="518.5" width="1439" height="258" fill="url(#pattern2)"/>
+<rect x="0.5" y="518.5" width="1439" height="258" fill="url(#pattern3)"/>
+<rect x="0.5" y="518.5" width="1439" height="258" stroke="#3696D4"/>
+<rect y="259" width="1440" height="259" fill="url(#pattern4)"/>
+<rect x="0.5" y="259.5" width="1439" height="258" stroke="#D9D9D9" stroke-opacity="0.866667"/>
+<g filter="url(#filter1_b_124_57)">
+<path d="M677.229 279.567L720.024 354.674L766.7 281.905L743.736 365.207L828.309 346.685L753.037 389.386L825.966 435.959L742.48 413.045L761.044 497.433L718.249 422.327L671.573 495.095L694.538 411.793L609.965 430.315L685.236 387.614L612.308 341.041L695.793 363.955L677.229 279.567Z" fill="#DDC64C"/>
+</g>
+<path d="M719.744 271.09L736.837 346.596L802.432 305.265L761.011 370.717L836.683 387.773L761.011 404.829L802.432 470.28L736.837 428.949L719.744 504.456L702.651 428.949L637.056 470.28L678.477 404.829L602.805 387.773L678.477 370.717L637.056 305.265L702.651 346.596L719.744 271.09Z" fill="#EAD941"/>
+<defs>
+<filter id="filter0_d_124_57" x="-4" y="0" width="1448" height="267" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_124_57"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_124_57" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.00833333" height="0.046332">
+<use xlink:href="#image0_124_57" transform="scale(0.000694444 0.003861)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.00833333" height="0.046332">
+<use xlink:href="#image0_124_57" transform="scale(0.000694444 0.003861)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="0.00833333" height="0.046332">
+<use xlink:href="#image0_124_57" transform="scale(0.000694444 0.003861)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="0.00833333" height="0.046332">
+<use xlink:href="#image0_124_57" transform="scale(0.000694444 0.003861)"/>
+</pattern>
+<pattern id="pattern4" patternContentUnits="objectBoundingBox" width="0.00833333" height="0.046332">
+<use xlink:href="#image1_124_57" transform="scale(0.000694444 0.003861)"/>
+</pattern>
+<filter id="filter1_b_124_57" x="605.965" y="275.567" width="226.344" height="225.866" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_124_57"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_124_57" result="shape"/>
+</filter>
+<image id="image0_124_57" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA8SURBVHgB7dGxEQAgCANAXCrriUOog6nzRGUC6Czkju6TJkkch76ykHq+uDDaJOrQjx/BFghgWzyCb/kGF/pSqtmKOQwAAAAASUVORK5CYII="/>
+<image id="image1_124_57" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA7SURBVHgB7dGxEQAgCANAnFycLwOolTpJVCaAzkLu6D5pksRx6CsLqeeLC6NNog79+BFsgQC2xSP4lm8gWXDQZghHzwAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

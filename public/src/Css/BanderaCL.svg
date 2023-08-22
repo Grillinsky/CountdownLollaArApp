@@ -1,0 +1,20 @@
+<svg width="1440" height="778" viewBox="0 0 1440 778" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="-0.495996" y="-0.503869" width="1047.06" height="386.643" transform="matrix(-0.99997 -0.00776989 0.00797801 -0.999968 1435.72 395.127)" fill="url(#pattern0)" stroke="white"/>
+<rect x="0.5" y="392.573" width="1439" height="384.927" fill="url(#pattern1)" stroke="#D72C1F"/>
+<rect x="0.5" y="1.5" width="389.216" height="386.642" fill="url(#pattern2)" stroke="#0139A6"/>
+<path d="M192.518 74.6482L220.147 159.122L220.26 159.467H220.623H310.024L237.7 211.667L237.403 211.88L237.517 212.228L265.144 296.695L192.811 244.488L192.518 244.277L192.225 244.488L119.892 296.695L147.519 212.228L147.633 211.88L147.336 211.667L75.012 159.467H164.413H164.776L164.889 159.122L192.518 74.6482Z" fill="#D9D9D9" stroke="#0139A6"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.0114498" height="0.0309563">
+<use xlink:href="#image0_124_107" transform="scale(0.000954147 0.0025797)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="0.00833333" height="0.031094">
+<use xlink:href="#image1_124_107" transform="scale(0.000694444 0.00259116)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="0.0307522" height="0.0309564">
+<use xlink:href="#image2_124_107" transform="scale(0.00256268 0.0025797)"/>
+</pattern>
+<image id="image0_124_107" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA7SURBVHgB7dGxEQAgCANAnFycLwOolTpJVCaAzkLu6D5pksRx6CsLqeeLC6NNog79+BFsgQC2xSP4lm8gWXDQZghHzwAAAABJRU5ErkJggg=="/>
+<image id="image1_124_107" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA7SURBVHgB7dE7EQAgDAPQYgQQEI8UlZFTfgbCxkDvur1kSTLhiNrMwud3CRMliOwfP4JPQMd78Ru8yge7gz/vG90RZAAAAABJRU5ErkJggg=="/>
+<image id="image2_124_107" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA5SURBVHgB7cyxEQAgCENRcCp1OXEYdcxoNoDOgtyle/dVHCv9DAD2Pl1Y24bUZYk/wVwEMy4RzPgFdgE7Ka5KhK0AAAAASUVORK5CYII="/>
+</defs>
+</svg>
